@@ -2,4 +2,4 @@
 #### 2025 02
 
 ##### HJS : HTML, CSS, JS
-[HJS](https://github.com/alstjr6211/Study/HCJ)
+[HCS](https://github.com/alstjr6211/Study/HCJ)
