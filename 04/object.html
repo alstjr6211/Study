@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  <body>
+
+  <h2>하이퍼링크</h2>
+    
+
+    <!-- #부분에 링크할 주소를 넣는다 -->
+    <a href="https://www.google.com" target="_blank">링크 텍스트 혹은 이미지</a>
+    <a href="https://www.google.com" target="_blank"><img src="dog.jpg" alt="강아지"></a>
+
+  <h2>오브젝트 연습</h2>
+
+  <object data="product.pdf" type=""></object>
+
+  <!-- embed 태그는 오디오, 비디오, 이미지 등 다양한 멀티미디어 파일을 삽입할 수 있다 -->
+  <!-- audio, video, object 태그를 지원하지 않는 웹 브라우저를 고려해야하면, embed 태그를 사용해서 멀티미디어 파일을 삽입한다. -->
+
+  <embed src="medias/spring.mp3" type="">
+
+  
+
+  <audio src="오디오 파일 경로"></audio>
+  <video src="비디오 파일 경로"></video>
+
+  <!-- 위와 같이 사용할 수 있다. -->
+
+  <!-- 추가로 방문자가 재생이나 멈춤을 선택할 수 있도록 controls 설정을 두어야 한다. -->
+
+    <audio src="audio.mp3" controls></audio>
+    <!-- 1oop : 반복 재생 -->
+    <!-- muted : 소리 제거 -->
+    <video src="video.mp4" controls width = "700"></audio>
+    <!-- poster : 비디오가 재생되기 전까지 화면에 띄울 포스터 이미지를 설정한다. -->
+
+
+
+    <!-- 브라우저에서 동영상을 자동 재생하고 싶으면, 웹 접근성 이슈 때문에 muted를 해놓아야한다. -->
+    <!-- 사용자의 동의 없이 멀티미디어를 시작하지 않도록 권고하고 있기 때문 -->
+
+
+    
+  </body>
+</html>
