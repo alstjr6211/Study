@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+
+    <input type="text">
+    <input type="password">
+    <input type="search">
+    <input type="url">
+
+    <input type="number">
+    <input type="submit" name="제출안" id="" value="로그인">
+  </form>
+
+  <form action="">
+    <ul>
+      <li>
+        <label for="user-name">이름</label>
+        <input type="text" id="user-name">
+      </li>
+      <li>
+        <label for="addr">배송 주소</label>
+        <input type="text" id="addr">
+      </li>
+      <li>
+        <label for="mail">이메일</label>
+        <input type="email" id="mail">
+      </li>
+      <li>
+        <label for="phone">연락처</label>
+        <input type="tel" id="phone">
+      </li>
+
+      <input type="submit" value = "회원가입">
+
+    </ul>
+  </form>
+
+
+  <form action="">
+    <legend>상품 선택</legend>
+    <p><b>상품을 선택해주세요.</b></p>
+
+    <ul>
+      <li><lable><input type="checkbox" name="prod" value="s_3">선물용 3kg</lable></li>
+      <li><lable><input type="checkbox" name="prod" value="s_5">선물용 5kg</lable></li>
+      <li><lable><input type="checkbox" name="prod" value="f_3">가정용 3kg</lable></li>
+      <li><lable><input type="checkbox" name="prod" value="f_3">가정용 3kg</lable></li>
+    </ul>
+    <p><b>포장 선택</b></p>
+    <ul>
+      <li>
+        <lable><input type="radio"  name="gift" vlaue="yes">선물 포장</lable>
+      </li>
+      <li>
+        <lable><input type="radio"  name="gift" vlaue="no">선물 미포장</lable>
+      </li>
+    </ul>
+  </form>
+
+  <form action="">
+    <fieldset>
+      <legend>사용자 정보</legend>
+      <ul>
+        <li>
+          <label for="uid">아이디</label>
+          <input type="text" id="uid">
+        </li>
+        <li>
+          <label for="mail">이메일</label>
+          <input type="email" id="mail">
+        </li>
+        <li>
+          <label for="password">비밀번호</label>
+          <input type="password" id="password">
+        </li>
+        <li>
+          <label for="password-check">비밀번호 확인</label>
+          <input type="password" id="password-check">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      
+      <legend>이벤트와 새로운 소식</legend>
+      <label for="maling_y">메일 수신</label>
+      <input type="radio" name="mailing" id="mailing_y" value="mailing_yes">
+      
+      <label for="maling_n">메일 수신 안함</label>
+      <input type="radio" name="mailing" id="mailing_n" value="mailing_no">
+
+
+    </fieldset>
+
+    <div>
+      <input type="submit" name="" id="" value="가입하기">
+      <input type="reset" name="" id="" value="취소">
+    </div>
+  </form>
+
+
+  <form action="">
+    <fieldset>
+      <ul>
+        <li>
+          <lable><input type="checkbox" value="s_3">선물용 3kg</lable>
+          <input type="number" min="0" max="5">개 (최대 5개)
+        </li>
+
+        <li>
+          <lable><input type="checkbox" value="s_5">선물용 5kg</lable>
+          <input type="number" min="0" max="3">개 (최대 3개)
+        </li>
+      </ul>
+    </fieldset>
+  </form>
+
+  <br><br><br>
+
+  <form action="">
+    <input type="range" min="0" max="100" step="1" value="20" oninput="document.getElementById('selected-value').innerText = this.value">
+    <span id="selected-value">20</span>
+
+    <input type="button" value="네이버 열기" onclick="window.open('notice.html', '_blank', 'width=300, height=400')">
+  </form>
+  
+</body>
+</html>
